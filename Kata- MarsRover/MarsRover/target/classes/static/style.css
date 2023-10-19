@@ -1,0 +1,35 @@
+
+#control-panel{
+    position: absolute;
+    z-index: 15;
+    bottom: 10px;
+    left: calc(50% - 160px);
+    
+}
+
+.btn-control{
+    width: 80px;
+    cursor: pointer;
+    opacity: .8;
+ 
+}
+
+#rover{
+    position: absolute;
+    width: 120px;
+    transition: all 500ms linear;
+    z-index: 10;
+}
+
+
+
+.rock{
+    position: absolute ;
+    width: 175px;
+    margin-top: 75px; 
+    
+}
+
+audio{
+    display: none;
+}
